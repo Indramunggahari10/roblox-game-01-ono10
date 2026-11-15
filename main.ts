@@ -1,10 +1,9 @@
-// A working roblox-game-01 entry (Node 22, standard library only): the game is this directory's Rojo
-// project, built into game.rbxl with `rojo build default.project.json --output game.rbxl`, and the program
-// hands it in. It copies game.rbxl, src/, screenshots/ and PLAY.json from beside this file to /output and
-// writes /output/dossier.json, the summary the judge reads, with the vendored make.fun library. A starting
-// point, not a winner: it is a grey square that moves with the arrow keys. Build your game, rebuild
-// game.rbxl, put your PNG or JPEG screenshots in screenshots/ (the first by name is the cover) and fill in
-// PLAY.json with your published place.
+// Crystal Caverns — the entry program for make.fun roblox-game-01.
+// The game is this directory's Rojo project (src/ + default.project.json),
+// built into game.rbxl with `rojo build default.project.json --output game.rbxl`.
+// This program hands it in: it copies game.rbxl, src/, screenshots/ and
+// PLAY.json from beside this file to /output and writes /output/dossier.json,
+// the summary the judge reads, with the vendored make.fun library.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
